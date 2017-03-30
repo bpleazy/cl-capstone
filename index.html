@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blake's Project</title>
+    <link rel="icon" href="favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <!--Script calls to jQuery and Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--These elements and classes control the top Navbar element's layout and styling-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://www.setgame.com/" target="_blank"><img src="logo.png" /></a>
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <div id="navbar-hamburger">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <div id="navbar-close" class="hidden">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </div>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Play <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.setgame.com/set/puzzle">Daily Puzzle</a></li>
+                            <li><a href="http://smart-games.org/en/set/submit_set">Online Game</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Buy <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.setgame.com/products">SET Home</a></li>
+                            <li><a href="https://www.amazon.com/SET-Family-Game-Visual-Perception/dp/B00000IV34/ref=sr_1_1?ie=UTF8&qid=1490678983&sr=8-1&keywords=Set+cards">Amazon</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Theory <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.setgame.com/set/puzzle">Math of SET</a></li>
+                            <li><a href="http://smart-games.org/en/set/submit_set">SET Proof</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="div-1" class="container">
+        <h1>Heading 1</h1>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus molestie metus at egestas. Curabitur ultrices nunc risus, at imperdiet elit lacinia quis. Sed at viverra magna. Aenean dictum, nibh sodales maximus sagittis, purus odio iaculis massa, eu venenatis libero mi vulputate sapien. Vivamus justo dui, aliquam et orci vitae, vehicula ornare metus. Proin sed sapien pretium, rutrum lacus a, rhoncus massa. Pellentesque in luctus sapien. Sed rhoncus consequat leo, sed tincidunt nunc porttitor sed. Nulla pretium vehicula fringilla. Maecenas et felis sed mauris iaculis vestibulum volutpat et augue. Ut pretium ornare malesuada. Morbi pretium laoreet metus, nec posuere ligula euismod a.
+
+Nam eu laoreet arcu, at viverra libero. Fusce sit amet ipsum in lorem dignissim tincidunt vel vel libero. Proin a nisl ac orci laoreet ultrices. Integer rutrum nunc scelerisque elit gravida fermentum. Pellentesque vitae eros tortor. Fusce vitae finibus velit. Curabitur et laoreet nisi. Ut pulvinar imperdiet sapien, in congue nulla congue a. Mauris sodales sapien nec neque sagittis finibus. Sed facilisis mi ac porttitor pharetra. Morbi vel risus eget lorem accumsan pulvinar. Phasellus sit amet elit eu purus eleifend pharetra.</div>
+    </div>
+    <div id="div-2" class="container">
+        <h1>Heading 2</h1>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus molestie metus at egestas. Curabitur ultrices nunc risus, at imperdiet elit lacinia quis. Sed at viverra magna. Aenean dictum, nibh sodales maximus sagittis, purus odio iaculis massa, eu venenatis libero mi vulputate sapien. Vivamus justo dui, aliquam et orci vitae, vehicula ornare metus. Proin sed sapien pretium, rutrum lacus a, rhoncus massa. Pellentesque in luctus sapien. Sed rhoncus consequat leo, sed tincidunt nunc porttitor sed. Nulla pretium vehicula fringilla. Maecenas et felis sed mauris iaculis vestibulum volutpat et augue. Ut pretium ornare malesuada. Morbi pretium laoreet metus, nec posuere ligula euismod a.
+
+Nam eu laoreet arcu, at viverra libero. Fusce sit amet ipsum in lorem dignissim tincidunt vel vel libero. Proin a nisl ac orci laoreet ultrices. Integer rutrum nunc scelerisque elit gravida fermentum. Pellentesque vitae eros tortor. Fusce vitae finibus velit. Curabitur et laoreet nisi. Ut pulvinar imperdiet sapien, in congue nulla congue a. Mauris sodales sapien nec neque sagittis finibus. Sed facilisis mi ac porttitor pharetra. Morbi vel risus eget lorem accumsan pulvinar. Phasellus sit amet elit eu purus eleifend pharetra.</div>
+    </div>
+
+</body>
+</html>
+<!--Javascript-->
+<script type="text/javascript">
+//controls Top-Nav menu layout when the view is mobile
+    $(function () {
+        mobileLayout();
+
+        $('#menu-toggle').click(function () {
+            $('#navbar-hamburger').toggleClass('hidden');
+            $('#navbar-close').toggleClass('hidden');
+        });
+    });
+
+    $(window).resize(function () {
+        mobileLayout();
+    });
+
+
+    function mobileLayout() {
+        if ($(window).width() <= 480) {
+            $('.dropdown-toggle').removeAttr('data-toggle');
+            $('.dropdown').addClass('open');
+        }
+        else {
+            $('.dropdown-toggle').attr('data-toggle', 'dropdown');
+            $('.dropdown').removeClass('open');
+        }
+    }
+</script>
