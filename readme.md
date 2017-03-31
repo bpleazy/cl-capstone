@@ -21,7 +21,7 @@ I really hope this game picks up in popularity; It's incredibly addictive.
 - [x] include a README file located at the top level directory of your project providing the following:
     - [x] brief description of your project’s purpose
     - [x] detailed steps on how to view the website, can be [Github Pages]()
-    - [x]
+- [x] Have Fun
 
 
 My design has multiple breakpoints in CSS for different screen sizes, so that content will display optimally across different devices. I also JavaScript for my responsive top-nav. Each of the buttons in the nav has a drop-down menu, and in tablet view the links are centered on the nav. In mobile device view, there's then a "hamburger" button to toggle a fuller slide-down menu.<br>
