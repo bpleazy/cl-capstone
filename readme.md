@@ -13,7 +13,7 @@ My original intention with this project was to generate a game web-app similar t
 I really hope this game picks up in popularity; It's incredibly addictive.
 <br><br>
 
-## All you need to do to view the page is click <a href="https://bpleazy.github.io/cl-capstone/(https://bpleazy.github.io/cl-capstone/" target="_blank">this link</a>.
+## All you need to do to view the page is click <a href="https://bpleazy.github.io/cl-capstone/" target="_blank">this link</a>.
 You can also download the repository files, and opening the .html document will open the page.
 
 - [x] responsive to different devices and/or browser sizes/resolutions.
@@ -23,7 +23,7 @@ You can also download the repository files, and opening the .html document will 
 - [x] project code is on GitHub account in its own repository.
 - [x] include a README file located at the top level directory of your project providing the following:
     - [x] brief description of your project’s purpose
-    - [x] detailed steps on how to view the website, you can view my site on <a href="https://bpleazy.github.io/cl-capstone/(https://bpleazy.github.io/cl-capstone/" target="_blank">Github Pages</a>
+    - [x] detailed steps on how to view the website, you can view my site on <a href="https://bpleazy.github.io/cl-capstone/" target="_blank">Github Pages</a>
 - [x] Have Fun
 
 
