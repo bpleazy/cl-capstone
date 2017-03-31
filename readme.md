@@ -1,5 +1,5 @@
 # Code Louisville Capstone Project
-## View on GitHub Pages](https://bpleazy.github.io/cl-capstone/)
+<h2><a href="https://bpleazy.github.io/cl-capstone/" target="_blank">View on GitHub Pages</a></h2>
 I do want to throw it out there that the web files perform a bit differently in GitHub Pages than when I'm running them locally in my browser. This, however, doesn't pose *too* heavy an issue, since the responsive layout I've used still allows the breakpoints to function in a way that displays the content in an organized, readable structure.
 <br><br>
 The purpose of this project is to display my ability to design a web page. I've learned how to use some JavaScript, I've gotten familiar with HTML5, and CSS3.
@@ -22,7 +22,7 @@ I really hope this game picks up in popularity; It's incredibly addictive.
 - [x] project code is on GitHub account in its own repository.
 - [x] include a README file located at the top level directory of your project providing the following:
     - [x] brief description of your project’s purpose
-    - [x] detailed steps on how to view the website, can be [Github Pages](https://bpleazy.github.io/cl-capstone/)
+    - [x] detailed steps on how to view the website, can be [Github Pages](https://bpleazy.github.io/cl-capstone/(https://bpleazy.github.io/cl-capstone/)
 - [x] Have Fun
 
 
