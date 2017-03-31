@@ -1,5 +1,5 @@
 # Code Louisville Capstone Project
-
+<h2>[View on GitHub Pages](https://bpleazy.github.io/cl-capstone/)</h2>
 The purpose of this project is to display my ability to design a web page. I've learned how to use some JavaScript, I've gotten familiar with HTML5, and CSS3.
 <br>
 I for sure need to study JavaScript in more depth; I was able to generate some interesting CSS selectors and pseudo-elements; appending text directly into the HTML file will be even more powerful for web applications than simply using CSS to add content using selectors and pseudo-elements/classes.
@@ -20,7 +20,7 @@ I really hope this game picks up in popularity; It's incredibly addictive.
 - [x] project code is on GitHub account in its own repository.
 - [x] include a README file located at the top level directory of your project providing the following:
     - [x] brief description of your project’s purpose
-    - [x] detailed steps on how to view the website, can be [Github Pages]()
+    - [x] detailed steps on how to view the website, can be [Github Pages](https://bpleazy.github.io/cl-capstone/)
 - [x] Have Fun
 
 
