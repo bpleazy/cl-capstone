@@ -1,15 +1,157 @@
+/*==============
+  Page Styling
+==============*/
+
+body {
+    background-color: #E0E0E0;
+    font-family: 'Athiti', sans-serif;
+    font-size: 2em;
+}
+
+.nav {
+    font-size: .9em;
+}
+
+.dropdown-menu {
+    font-size: .8em;
+}
+
 .navbar-brand > img {
     height: 100%;
     width: auto;
 }
 
-h1{
+.item-2 {
+    font-family: 'Raleway', 'Athiti', sans-serif;
+    font-size: 2em;
+}
+
+h1 {
     width: 500px;
+    font-family: 'Ubuntu', sans-serif !important; 
+}
+
+.div-1 > img {
+    width: 150px;
+    height: auto;
+}
+
+h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex-container-1 > img {
+    width: 300px;
+    height; auto;
+}
+
+/*
+    Target all image elements starting with src text of "cards/"
+*/
+img[src^="cards/"] {
+    width: 85px;
+    height: auto;
+}
+
+/*
+    Manually remove bullets from ul
+*/
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-inverse {
+    background-color: #044660;
+}
+
+/*Placements*/
+
+a[href^="http://eltoro"] {
+    cursor:url(nothing/toro.png),crosshair;
+}
+
+.inventory {
+    width: 728px;
+    height: 90px;
+    margin: auto;
+}
+.inventory > a::after {
+    content: url(nothing/bd1dba3469a95a996783a65eeae4d971.gif);
+}
+
+.inventory-tray,
+.container-inv {
+    margin-left: 12%;
+}
+.inventory-tray > div {
+    display: inline-block;
+}
+
+.inventory2 {
+    width: 300px;
+    height: 600px;
+}
+.inventory2 > a::after {
+    content: url(nothing/iHwmJ2JcKbYEE4Bbo-etrecruit_300x600ky._source.gif);
+}
+
+.inventory3 {
+    width: 120px;
+    height: 600px;
+}
+.inventory3 > a::after {
+    content: url(nothing/120x600.gif);
+}
+
+.inventory4 {
+    width: 160px;
+    height: 600px;
+}
+.inventory4 > a::after {
+    content: url(nothing/targtd.gif);
+}
+
+/*==============
+    Flexbox
+===============*/
+
+.flex-container-1, .flex-container-2, .big-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
+.flex-container-2 > div {
+    min-width: 49%;
+}
+.item-1 {
+
+}
+
+
+/*=======================
+    @Media Queries
+========================*/
+
 /* Phones */
 @media only screen and (max-width : 480px) {
+    div[id^="placement"] {
+        width: 300px;
+        height: 250px;
+    }
+    a[href^="http://eltoro"] {
+        content: url(nothing/targeted.gif);
+    }
+    .mobile-ad, .mobile-ad1 {
+        display: none;
+    }
     .navbar-nav, .dropdown-menu {
         text-align: center;
     }
@@ -37,16 +179,31 @@ h1{
     }
 
     .container > h1{
-        margin: 0 auto;
+        margin: auto;
     }
+
 }
 
+    .navbar-brand > img {
+        height: auto;
+        width: 80px;
+        display: inline;
+    }
 
-/* Small Devices, Tablets */
+/* ====================
+Small Devices, Tablets 
+=====================*/
 @media only screen and (max-width : 768px) {
-
-
-
+    div[id^="placement"] {
+        width: 300px;
+        height: 250px;
+    }
+    a[href^="http://eltoro"] {
+        content: url(nothing/targeted.gif);
+    }
+    h1 < {
+        margin: auto;
+    }
     .dropdown-menu {
         text-align: center;
     }
@@ -58,15 +215,10 @@ h1{
     .navbar-header {
         text-align: center;
     }
-
-    .navbar-brand > img {
-        height: auto;
-        width: 48.984px;
-        display: inline;
-    }
 }
 
 @media screen and (max-width:768px) and (min-width:480px) {
+
     .navbar-right {
         float: none !important;
         display: inline-block;
@@ -85,21 +237,20 @@ h1{
         box-shadow: 0 6px 12px rgba(0,0,0,.175) !important;
     }
 
-        .dropdown-menu > li > a {
-            display: block !important;
-            padding: 3px 20px !important;
-            clear: both !important;
-            font-weight: 400 !important;
-            line-height: 1.42857143 !important;
-            color: #333 !important;
-            white-space: nowrap !important;
-        }
+    .dropdown-menu > li > a {
+        display: block !important;
+        padding: 3px 20px !important;
+        clear: both !important;
+        line-height: 1.42857143 !important;
+        color: #333 !important;
+        white-space: nowrap !important;
+    }
 
-            .dropdown-menu > li > a:hover {
-                color: #262626 !important;
-                text-decoration: none !important;
-                background-color: #f5f5f5 !important;
-            }
+    .dropdown-menu > li > a:hover {
+        color: #262626 !important;
+        text-decoration: none !important;
+        background-color: #f5f5f5 !important;
+    }
 
     .navbar-collapse.collapse {
         text-align: center;

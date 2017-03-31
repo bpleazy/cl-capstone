@@ -5,70 +5,241 @@
     <link rel="icon" href="favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheet and framework calls-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css" />
-    <!--Script calls to jQuery and Bootstrap-->
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<!--These elements and classes control the top Navbar element's layout and styling-->
+<!--These elements and classes control the top Navbar elements' layout-->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="http://www.setgame.com/" target="_blank"><img src="logo.png" /></a>
                 <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <!--Button element that defines the slide-down menu on mobile screens-->
                     <div id="navbar-hamburger">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </div>
+                    <!--Button changes to 'X' glyphicon that closes the menu-->
                     <div id="navbar-close" class="hidden">
                         <span class="glyphicon glyphicon-remove"></span>
                     </div>
                 </button>
             </div>
+            <!--Dropdown menu elements when in Desktop and Tablet view-->
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Play <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="http://www.setgame.com/set/puzzle">Daily Puzzle</a></li>
-                            <li><a href="http://smart-games.org/en/set/submit_set">Online Game</a></li>
+                            <li><a href="http://www.setgame.com/set/puzzle" target="_blank">SET Daily Puzzle</a></li>
+                            <li><a href="http://smart-games.org/en/set/start/" target="_blank">Online Game</a></li>
+                            <li><a href="https://www.nytimes.com/crosswords/game/set/" target="_blank">NY Times Puzzles</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Buy <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="http://www.setgame.com/products">SET Home</a></li>
-                            <li><a href="https://www.amazon.com/SET-Family-Game-Visual-Perception/dp/B00000IV34/ref=sr_1_1?ie=UTF8&qid=1490678983&sr=8-1&keywords=Set+cards">Amazon</a></li>
+                            <li><a href="http://www.setgame.com/products" target="_blank">From the SET Website</a></li>
+                            <li><a href="https://www.amazon.com/SET-Family-Game-Visual-Perception/dp/B00000IV34/ref=sr_1_1?ie=UTF8&qid=1490678983&sr=8-1&keywords=Set+cards" target="_blank">On Amazon.com</a></li>
+                            <li><a href="http://www.setgame.com/find_a_store" target="_blank">Store Locator</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Theory <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="http://www.setgame.com/set/puzzle">Math of SET</a></li>
-                            <li><a href="http://smart-games.org/en/set/submit_set">SET Proof</a></li>
+                            <li><a href="http://math.stackexchange.com/questions/202862/in-the-card-game-set-whats-the-probability-of-a-set-existing-in-n-cards" target="_blank">Mathematics Forum</a></li>
+                            <li><a href="http://www-personal.umich.edu/~charchan/SET.pdf" target="_blank">SETs &#38; Anti-SETs PDF</a></li>
+                            <li><a href="http://www.setgame.com/sites/default/files/teacherscorner/SETPROOF.pdf" target="_blank">SET Proof PDF</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    <!--
+        Should use javascript to append <a href="">
+        Here, however, all links go to the same URL
+    -->
+    <div id="placement-id-from-SSP" class="inventory">
+        <a href='http://eltoro.com/job/web-designer-content-creation-wizard-louisville-ky/' target='_blank'></a>
+    </div>
+    <div class="container">
+        <div class="flex-container-1">
+                <div class="item-1"><img src="logo.png"></div>
+                <div class="item-2">The Game of Visual Perception</div>
+        </div>
+    </div>
     <div id="div-1" class="container">
-        <h1>Heading 1</h1>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus molestie metus at egestas. Curabitur ultrices nunc risus, at imperdiet elit lacinia quis. Sed at viverra magna. Aenean dictum, nibh sodales maximus sagittis, purus odio iaculis massa, eu venenatis libero mi vulputate sapien. Vivamus justo dui, aliquam et orci vitae, vehicula ornare metus. Proin sed sapien pretium, rutrum lacus a, rhoncus massa. Pellentesque in luctus sapien. Sed rhoncus consequat leo, sed tincidunt nunc porttitor sed. Nulla pretium vehicula fringilla. Maecenas et felis sed mauris iaculis vestibulum volutpat et augue. Ut pretium ornare malesuada. Morbi pretium laoreet metus, nec posuere ligula euismod a.
-
-Nam eu laoreet arcu, at viverra libero. Fusce sit amet ipsum in lorem dignissim tincidunt vel vel libero. Proin a nisl ac orci laoreet ultrices. Integer rutrum nunc scelerisque elit gravida fermentum. Pellentesque vitae eros tortor. Fusce vitae finibus velit. Curabitur et laoreet nisi. Ut pulvinar imperdiet sapien, in congue nulla congue a. Mauris sodales sapien nec neque sagittis finibus. Sed facilisis mi ac porttitor pharetra. Morbi vel risus eget lorem accumsan pulvinar. Phasellus sit amet elit eu purus eleifend pharetra.</div>
+        <div>
+            <h1>
+                Instructions
+            </h1>
+            <p>
+                The object of the game is to identify a <i>SET</i> of 3 cards from 12 cards placed face up on the table. Each card has four features, which can vary as follows:
+            </p>
+        </div>
+            <!--Flex Container-->
+            <div class="flex-container-2">
+                <div>
+                    <h3>
+                        Shape
+                    </h3>
+                        <!--Child Flex containers for card displays-->
+                        <ul class="child-flex-container">
+                            <li><span><img src="cards/red-oval.png"></span> ovals,</li>
+                            <li><img src="cards/red-squiggle.png"> squiggles,</li>
+                            <li><img src="cards/red-diamond.png"> or diamonds</li>
+                        </ul>
+                </div>
+                <div>
+                    <h3>
+                        Color
+                    </h3>
+                        <!--Child Flex containers for card displays-->
+                        <ul class="child-flex-container">
+                            <li><img src="cards/red-oval.png"> red,</li>
+                            <li><img src="cards/single-purple-oval.png"> purple,</li>
+                            <li><img src="cards/single-green-oval.png"> or green</li>
+                        </ul>
+                </div>
+                <div>
+                    <h3>
+                        Number
+                    </h3>
+                        <!--Child Flex containers for card displays-->
+                        <ul class="child-flex-container">
+                            <li><img src="cards/single-purple-squiggly.png"> one,</li>
+                            <li><img src="cards/double-purple-squiggly.png"> two,</li>
+                            <li><img src="cards/triple-purple-squiggly.png"> or three</li>
+                        </ul>
+                </div>
+                <div>
+                    <h3>
+                        Shading
+                    </h3>
+                        <!--Child Flex containers for card displays-->
+                        <ul class="child-flex-container">
+                            <li><img src="cards/triple-solid-diamond.png"> solid,</li>
+                            <li><img src="cards/triple-shade-diamond.png"> striped,</li>
+                            <li><img src="cards/triple-empty-diamond.png"> or outlined</li>
+                        </ul>
+                </div>
+            </div>
+            <!--End parent Flex Container-->
+        <div class="big-flex">
+            <div>
+                A <i>SET</i> consists of 3 cards in which each of the cards’ features, looked at one-by-one, are the same on each card, or, are different on each card. All of the features must separately satisfy this rule. In other words: shape must be either the same on all 3 cards, or different on each of the 3 cards; color must be the same on all 3 cards, or different on each of the 3, etc. There are examples below.
+            </div>
+            <div>
+                <h2>
+                    Quick Check – Is it a SET?
+                </h2>
+                <p>
+                    If 2 cards are the same and 1 card is different in any feature, then it is not a <i>SET</i>. For example, if 2 are red and 1 is purple then it is not a <i>SET</i>. A <i>SET</i> must either be either all the same OR all different in each individual feature.
+                </p>
+            </div>
+            <div>
+                <h2>
+                    EASY START
+                </h2>
+                <p>
+                    For a quick introduction, start with the small deck (just the solid symbols). This eliminates one feature, shading. Once you can quickly see a <i>SET</i> when playing the 3 feature version, shuffle the 2 decks together to play the full game.
+                </p>
+            </div>
+            <div>
+                <h2>
+                    THE PLAY
+                </h2>
+                <p>
+                    The dealer shuffles the cards and lays 12 face up on the table (in a rectangle) so that they can be seen by all. Players remove <i>SET</i>s of 3 cards from anywhere on the table. Each <i>SET</i> is checked by the other players. If correct, the <i>SET</i> is kept by the player for one point and the dealer replaces the 3 cards with 3 from the deck. A player must call <i>SET</i> before picking up the cards. There are no turns, the first player to call <i>SET</i> gets control of the board. After he/she has called <i>SET</i>, no other player can pick up cards until that player has finished. The <i>SET</i> must be picked up within a few seconds after calling it. If a player calls <i>SET</i> and does not have one, or if the <i>SET</i> is incorrect, he/she loses one piont, and the 3 cards are returned to the table. If all players agree that there is not a <i>SET</i> in the 12 cards, 3 more cards are laid face up on the table. The 3 cards are not replaced when the next <i>SET</i> is found, reducing the number back to 12. Note: There are ~33:1 odds that a <i>SET</i> is present in 12 cards, and ~2500:1 odds when 15 cards are on the table.
+                </p>
+            </div>
+        <br>
+            <div>
+                <p>
+                    The play continues until the deck is depleted. At the end of the game there may be cards remaining that do not form a <i>SET</i>. The number of <i>SET</i>s held by each player is then counted. One point is given for each <i>SET</i>. High score wins.
+                </p>
+            <br>
+                <p>
+                    If you want a longer game, the deal passes to the person on the dealer's left, and the play resumes with the deck being reshuffled. When all the players have dealt, the game ends. The player with the highest overall score wins.
+                </p>
+            <br>
+                <p>
+                    When playing solitaire, if the player does not find a <i>SET</i>, 3 more cards are laid down with a penalty of one <i>SET</i>. To win the game, the player must remove this penalty by finding a <i>SET</i> on the table out of the last 12 cards.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container container-1">
+        <div class="inventory-tray">
+            <div id="placement-id-from-SSP888542" class="inventory3 mobile-ad">
+                <a href='http://eltoro.com/job/web-designer-content-creation-wizard-louisville-ky/' target='_blank'></a>
+            </div>
+            <div id="placement-id-from-SSP888542" class="inventory2">
+                <a href='http://eltoro.com/job/web-designer-content-creation-wizard-louisville-ky/' target='_blank'></a>
+            </div>
+            <div id="placement-id-from-SSP888542" class="inventory3 mobile-ad1">
+                <a href='http://eltoro.com/job/web-designer-content-creation-wizard-louisville-ky/' target='_blank'></a>
+            </div>
+        </div>
     </div>
     <div id="div-2" class="container">
-        <h1>Heading 2</h1>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus molestie metus at egestas. Curabitur ultrices nunc risus, at imperdiet elit lacinia quis. Sed at viverra magna. Aenean dictum, nibh sodales maximus sagittis, purus odio iaculis massa, eu venenatis libero mi vulputate sapien. Vivamus justo dui, aliquam et orci vitae, vehicula ornare metus. Proin sed sapien pretium, rutrum lacus a, rhoncus massa. Pellentesque in luctus sapien. Sed rhoncus consequat leo, sed tincidunt nunc porttitor sed. Nulla pretium vehicula fringilla. Maecenas et felis sed mauris iaculis vestibulum volutpat et augue. Ut pretium ornare malesuada. Morbi pretium laoreet metus, nec posuere ligula euismod a.
+        <h1>Examples</h1>
+            <div>              
+                <!--Child Flex containers for card displays-->
+                <ul class="child-flex-container">
+                    <li><img src="cards/red-oval.png"> red,</li>
+                    <li><img src="cards/single-purple-oval.png"> purple,</li>
+                    <li><img src="cards/single-green-oval.png"> or green</li>
+                </ul>
+                <h4>
+                    All three cards have the same shape, the same color, the same number of symbols and they all have different shading.
+                </h4>
+            </div>
+            <div>
+                <!--Child Flex containers for card displays-->
+                <ul class="child-flex-container">
+                    <li><img src="cards/single-purple-squiggly.png"> one,</li>
+                    <li><img src="cards/double-purple-squiggly.png"> two,</li>
+                    <li><img src="cards/triple-purple-squiggly.png"> or three</li>
+                </ul>
+                <h4>
+                    All three cards have different shapes, different colors, and different numbers of symbols and they all have the same shading.
+                </h4>
 
-Nam eu laoreet arcu, at viverra libero. Fusce sit amet ipsum in lorem dignissim tincidunt vel vel libero. Proin a nisl ac orci laoreet ultrices. Integer rutrum nunc scelerisque elit gravida fermentum. Pellentesque vitae eros tortor. Fusce vitae finibus velit. Curabitur et laoreet nisi. Ut pulvinar imperdiet sapien, in congue nulla congue a. Mauris sodales sapien nec neque sagittis finibus. Sed facilisis mi ac porttitor pharetra. Morbi vel risus eget lorem accumsan pulvinar. Phasellus sit amet elit eu purus eleifend pharetra.</div>
+            </div>
+            <div>
+                <!--Child Flex containers for card displays-->
+                <ul class="child-flex-container">
+                    <li><img src="cards/triple-solid-diamond.png"> solid,</li>
+                    <li><img src="cards/triple-shade-diamond.png"> striped,</li>
+                    <li><img src="cards/triple-empty-diamond.png"> or outlined</li>
+                </ul>
+                <h4>
+                    All three cards have different shapes, different colors, different numbers of symbols and different shadings.
+                </h4>
+
+            </div>
     </div>
+    <footer style="text-align: center; color: rebeccapurple;">
+        <div>
+            &copy; BPleazy 2017
+        </div>
+        <div style="font-size: .8em;">
+            Did you like those ads on a site that isn't even real? I'll bet you did. Who doesn't like ads?
+        </div>
+        <div style="font-size: .6em; text-decoration: none;">
+            <a href="http://www.hamptoncatlin.com/" style="cursor:url(nothing/toro.png),crosshair;">Footer Example</a> by Wikipedia &amp; Sass inventor Hampton Catlin
+        </div>
+    </footer>
 
 </body>
 </html>
@@ -90,7 +261,8 @@ Nam eu laoreet arcu, at viverra libero. Fusce sit amet ipsum in lorem dignissim 
 
 
     function mobileLayout() {
-        if ($(window).width() <= 480) {
+
+        if ($(window).outerWidth() <= 480) {
             $('.dropdown-toggle').removeAttr('data-toggle');
             $('.dropdown').addClass('open');
         }
