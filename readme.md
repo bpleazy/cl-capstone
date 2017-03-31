@@ -1,15 +1,17 @@
 # Code Louisville Capstone Project
-<h2>[View on GitHub Pages](https://bpleazy.github.io/cl-capstone/)</h2>
+## View on GitHub Pages](https://bpleazy.github.io/cl-capstone/)
+I do want to throw it out there that the web files perform a bit differently in GitHub Pages than when I'm running them locally in my browser. This, however, doesn't pose *too* heavy an issue, since the responsive layout I've used still allows the breakpoints to function in a way that displays the content in an organized, readable structure.
+<br><br>
 The purpose of this project is to display my ability to design a web page. I've learned how to use some JavaScript, I've gotten familiar with HTML5, and CSS3.
-<br>
+<br><br>
 I for sure need to study JavaScript in more depth; I was able to generate some interesting CSS selectors and pseudo-elements; appending text directly into the HTML file will be even more powerful for web applications than simply using CSS to add content using selectors and pseudo-elements/classes.
-<br>
+<br><br>
 Navigation menus are important to me, and I'm pretty proud of the one used on this web page. Although, there is one thing that bothers me; at a very particular screen width between the mobile break-point and tablet breakpoint, all of my drop-down menus toggle at once. I made a change since the first iteration, but I can't quite seem to make this bug disappear.
-<br>
+<br><br>
 My original intention with this project was to generate a game web-app similar to the ones in the menu links, but with my own set of rules for an Online-Multiplayer mode. We play this game a lot at work, and it's become so highly competitive that I crave an unbiased, programmatic, instantaneous referee to govern the gameplay. The game is SET, and as you can see if you look around in the resources provided in the "Theory" tab, I ran into a pretty hard snag while attempting to write the data model and logic for the JavaScript program. I intend to one day finish the game, but I'm going to have to take some time to take a calculated approach to build a model around it and write the parameters and logic in a way that will execute rapidly.
-<br>
+<br><br>
 I really hope this game picks up in popularity; It's incredibly addictive.
-<br>
+<br><br>
 
 ## All you need to do to view the page is download all the files and run index.html.
 
