@@ -22,7 +22,7 @@ I really hope this game picks up in popularity; It's incredibly addictive.
 - [x] project code is on GitHub account in its own repository.
 - [x] include a README file located at the top level directory of your project providing the following:
     - [x] brief description of your project’s purpose
-    - [x] detailed steps on how to view the website, can be [Github Pages](https://bpleazy.github.io/cl-capstone/(https://bpleazy.github.io/cl-capstone/)
+    - [x] detailed steps on how to view the website, you can view my site on <a href="https://bpleazy.github.io/cl-capstone/(https://bpleazy.github.io/cl-capstone/" target="_blank">Github Pages</a>
 - [x] Have Fun
 
 
