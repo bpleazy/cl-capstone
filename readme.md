@@ -13,7 +13,8 @@ My original intention with this project was to generate a game web-app similar t
 I really hope this game picks up in popularity; It's incredibly addictive.
 <br><br>
 
-## All you need to do to view the page is download all the files and run index.html.
+## All you need to do to view the page is click <a href="https://bpleazy.github.io/cl-capstone/(https://bpleazy.github.io/cl-capstone/" target="_blank">this link</a>.
+You can also download the repository files, and opening the .html document will open the page.
 
 - [x] responsive to different devices and/or browser sizes/resolutions.
 - [x] user experience changes to improve as screen size or device viewing changes.
