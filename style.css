@@ -121,15 +121,26 @@ a[href^="http://eltoro"] {
 ===============*/
 
 .flex-container-1, .flex-container-2, .big-flex {
-    display: flex;
+    flex-wrap: wrap;   
     justify-content: center;
-    flex-wrap: wrap;
+}
+
+.flex-container-1, .flex-container-2, .big-flex, .child-flex-container2 {
+    display: flex;
     align-items: center;
 }
 
+.child-flex-container2 {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.child-flex-container2 > div {
+    max-width: 20%;
+}
 
-.flex-container-2 > div {
+.flex-container-2, .child-flex-container2 > div {
     min-width: 49%;
+    margin-left: 6%;
 }
 
 
