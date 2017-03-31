@@ -131,9 +131,6 @@ a[href^="http://eltoro"] {
 .flex-container-2 > div {
     min-width: 49%;
 }
-.item-1 {
-
-}
 
 
 /*=======================
@@ -183,7 +180,6 @@ a[href^="http://eltoro"] {
     }
 
 }
-
     .navbar-brand > img {
         height: auto;
         width: 80px;
